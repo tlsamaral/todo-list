@@ -14,3 +14,42 @@
     transform: translateY(-50%);
 }
 
+.tasksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.tasksHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tasksHeader > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tasksCreated {
+    font-weight: bold;
+    color: var(--blue);
+    font-size: 0.875rem;
+}
+
+.tasksDone {
+    font-weight: bold;
+    color: var(--purple);
+    font-size: 0.875rem;
+}
+
+.tasksCount {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    padding: 0.125rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+}
